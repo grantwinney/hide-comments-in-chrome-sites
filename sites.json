@@ -53,6 +53,10 @@
             "immediate": "div.discussion-timeline div.timeline-comment-wrapper:nth-child(1n+2), .timeline-new-comment"
         },
         {
+            "pattern": "^https?://(.*[.])?pivotaltracker[.]com",
+            "immediate": ".activity"
+        },
+        {
             "pattern": "^https?://",
             "immediate": ".fb-comments, .o2-display-comments-toggle, .o2-post-comments, .o2-post-comment-controls, #disqus_thread, .commentlist, .comments, .comment, .respond, #comments, #comment, #respond",
             "delay": "#disqus_thread > iframe, .responsesStreamWrapper"
