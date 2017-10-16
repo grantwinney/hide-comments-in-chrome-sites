@@ -50,7 +50,7 @@
         },
         {
             "pattern": "^https?://(.*[.])?github[.]com",
-            "immediate": "div.discussion-timeline div.timeline-comment-wrapper:nth-child(1n+2), .timeline-new-comment"
+            "immediate": "div.discussion-timeline div.timeline-comment-wrapper:nth-child(1n+2), div.discussion-timeline-actions > div.timeline-new-comment"
         },
         {
             "pattern": "^https?://(.*[.])?pivotaltracker[.]com",
