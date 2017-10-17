@@ -22,7 +22,8 @@
         {
             "pattern": "^https?://(.*[.])?facebook[.]com",
             "immediate": ".comment_link, .UFIComment, .UFIAddComment, ._-56, .UFILikeSentence ._ohf, .UFIReplyList, .UFIPagerLink, .UFIPagerCount",
-            "delay": ".comment_link, .UFIComment, .UFIAddComment, ._-56, .UFILikeSentence ._ohf, .UFIReplyList, .UFIPagerLink, .UFIPagerCount"
+            "delay": ".comment_link, .UFIComment, .UFIAddComment, ._-56, .UFILikeSentence ._ohf, .UFIReplyList, .UFIPagerLink, .UFIPagerCount",
+            "onceOnly": false
         },
         {
             "pattern": "^https?://(.*[.])?ijr[.]com",
