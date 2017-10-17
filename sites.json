@@ -57,6 +57,10 @@
             "immediate": ".activity"
         },
         {
+            "pattern": "^https?://(.*[.])?boredpanda[.]com",
+            "immediate": ".open-list-comments"
+        },
+        {
             "pattern": "^https?://",
             "immediate": ".fb-comments, .o2-display-comments-toggle, .o2-post-comments, .o2-post-comment-controls, #disqus_thread, .commentlist, .comments, .comment, .respond, #comments, #comment, #respond",
             "delay": "#disqus_thread > iframe, .responsesStreamWrapper"
