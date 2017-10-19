@@ -63,7 +63,8 @@
         },
         {
             "pattern": "^https?://(.*[.])?freecodecamp[.]org",
-            "immediate": ".topic-post:not(.topic-owner), .cloaked-post"
+            "immediate": ".topic-post:not(.topic-owner), .topic-owner:nth-child(1n+2), .cloaked-post",
+            "delay": ".topic-post:not(.topic-owner), .topic-owner:nth-child(1n+2), .cloaked-post"
         },
         {
             "pattern": "^https?://",
