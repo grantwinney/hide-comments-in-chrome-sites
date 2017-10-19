@@ -63,9 +63,8 @@
         },
         {
             "pattern": "^https?://(.*[.])?freecodecamp[.]org",
-            "immediate": ".topic-post:not(.topic-owner), div.post-stream > .topic-owner:nth-child(1n+2), .cloaked-post",
-            "delay": ".topic-post:not(.topic-owner), div.post-stream > .topic-owner:nth-child(1n+2), .cloaked-post",
-            "onceOnly": false
+            "immediate": ".topic-post:not(.topic-owner), div.post-stream > .topic-owner:nth-child(1n+2), .cloaked-post, .information toggle-summary",
+            "delay": ".topic-post:not(.topic-owner), div.post-stream > .topic-owner:nth-child(1n+2), .cloaked-post, .information toggle-summary"
         },
         {
             "pattern": "^https?://",
