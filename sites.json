@@ -68,7 +68,7 @@
         },
         {
             "pattern": "^https?://",
-            "immediate": ".fb-comments, .fb_iframe_widget, .o2-display-comments-toggle, .o2-post-comments, .o2-post-comment-controls, #disqus_thread, .commentlist, .comments, .comment, .respond, #comments, #comment, #respond, #comment-form, .comment-form",
+            "immediate": ".fb-comments, .fb_iframe_widget, .o2-display-comments-toggle, .o2-post-comments, .o2-post-comment-controls, #disqus_thread, .commentlist, .comments, .comment, .commenting, .respond, #comments, #comment, #commenting, #respond, #comment-form, .comment-form",
             "delay": "#disqus_thread > iframe, .responsesStreamWrapper"
         }
     ]
