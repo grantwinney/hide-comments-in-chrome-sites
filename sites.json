@@ -63,7 +63,7 @@
         },
         {
             "pattern": "^https?://(.*[.])?washingtonpost[.]com",
-            "immediate": "#comment_link_button_wrapper, #comments",
+            "immediate": "#comment_link_button_wrapper, #comments"
         },
         {
             "pattern": "^https?://(.*[.])?youtube[.]com",
