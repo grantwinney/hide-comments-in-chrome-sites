@@ -43,6 +43,10 @@
         {
             "pattern": "^https?://(.*[.])?stackexchange[.]com",
             "immediate": ".comments, .comments-link, .js-link-separator"
+        },,
+        {
+            "pattern": "^https?://(.*[.])?superuser[.]com",
+            "immediate": ".comments, .comments-link, .js-link-separator"
         },
         {
             "pattern": "^https?://(.*[.])?stackoverflow[.]blog",
