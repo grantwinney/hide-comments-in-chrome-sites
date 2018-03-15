@@ -49,6 +49,10 @@
             "immediate": ".comments, .comments-link, .js-link-separator"
         },
         {
+            "pattern": "^https?://(.*[.])?askubuntu[.]com",
+            "immediate": ".comments, .comments-link, .js-link-separator"
+        },
+        {
             "pattern": "^https?://(.*[.])?stackoverflow[.]blog",
             "immediate": ".comments-wrapper"
         },
