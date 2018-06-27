@@ -15,8 +15,8 @@
         },
         {
             "pattern": "^https?://(.*[.])?facebook[.]com",
-            "immediate": ".commentable_item, .comment_link, .UFIComment, .UFIAddComment, ._-56, .UFILikeSentence ._ohf, .UFIReplyList, .UFIPagerLink, .UFIPagerCount",
-            "delay": ".commentable_item, .comment_link, .UFIComment, .UFIAddComment, ._-56, .UFILikeSentence ._ohf, .UFIReplyList, .UFIPagerLink, .UFIPagerCount",
+            "immediate": ".commentable_item",
+            "delay": ".commentable_item",
             "onceOnly": false
         },
         {
