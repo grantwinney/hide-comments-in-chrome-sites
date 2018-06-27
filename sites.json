@@ -88,7 +88,8 @@
         },
         {
             "pattern": "^https?://(.*[.])?instagram[.]com",
-            "immediate": ".coreSpriteComment, .LGYDV, .gElp9"
+            "immediate": ".coreSpriteComment, .LGYDV, .gElp9",
+            "delay": ".coreSpriteComment, .LGYDV, .gElp9"
         },
         {
             "pattern": "^https?://",
