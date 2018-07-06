@@ -38,7 +38,7 @@
         },
         {
             "pattern": "^https?://(.*[.])?reddit[.]com",
-            "immediate": ".commentarea, .comments, ._1UoeAeSRhOKSNdY_h3iS1O._3m17ICJgx45k_z-t82iVuO, .s6wlmco-0.jecSt, .s18rx025-9.dZUtRw, .qucja8-7.eOVDAW"
+            "immediate": ".commentarea, .comments, ._1UoeAeSRhOKSNdY_h3iS1O._3m17ICJgx45k_z-t82iVuO, .s6wlmco-0.jecSt, .s18rx025-9.dZUtRw, .qucja8-7"
         },
         {
             "pattern": "^https?://(.*[.])?stackexchange[.]com",
