@@ -39,7 +39,8 @@
         },
         {
             "pattern": "^https?://(.*[.])?linkedin[.]com",
-            "immediate": ".feed-shared-social-counts__num-comments, .button.comment, .feed-shared-update__comments-container"
+            "immediate": ".feed-shared-social-counts__num-comments, .button.comment, .feed-shared-update__comments-container",
+            "delay": ".feed-shared-social-counts__num-comments, .button.comment, .feed-shared-update__comments-container"
         },
         {
             "pattern": "^https?://(.*[.])?namecheap[.]com",
