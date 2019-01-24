@@ -106,8 +106,7 @@
         },
         {
             "pattern": "^https?://(.*[.])?ign[.]com",
-            "delay": "#stream",
-            "onceOnly": false
+            "immediate": "#article_comments"
         },
         {
             "pattern": "^https?://",
