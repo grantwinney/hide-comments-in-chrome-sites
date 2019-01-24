@@ -49,6 +49,10 @@
             "immediate": ".facebook-comments-cover"
         },
         {
+            "pattern": "^https?://(.*[.])?ign[.]com",
+            "immediate": "#article_comments"
+        },
+        {
             "pattern": "^https?://",
             "immediate": ".fb-comments, .o2-display-comments-toggle, .o2-post-comments, .o2-post-comment-controls, #disqus_thread, .commentlist, .comments, .respond, #comments, #respond",
             "delay": "#disqus_thread > iframe, .responsesStreamWrapper"
