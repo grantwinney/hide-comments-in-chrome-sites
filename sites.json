@@ -110,7 +110,7 @@
         },
         {
             "pattern": "^https?://(.*[.])?buzzfeed[.]com",
-            "immediate": ".contributions"
+            "immediate": ".contributions, #mod-defer-user-contributions-1, #mod-defer-user-contributions-2"
         },
         {
             "pattern": "^https?://",
