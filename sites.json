@@ -113,6 +113,10 @@
             "immediate": ".contributions, #mod-defer-user-contributions-1, #mod-defer-user-contributions-2"
         },
         {
+            "pattern": "^https?://(.*[.])?dailymail[.]co[.]uk",
+            "immediate": ".comments-link, #reader-comments"
+        },
+        {
             "pattern": "^https?://",
             "immediate": ".fb-comments, .fb_iframe_widget, .o2-display-comments-toggle, .o2-post-comments, .o2-post-comment-controls, #disqus_thread, .commentlist, .comments, .comment, .commenting, .respond, #comments, #comment, #commenting, #respond, #comment-form, .comment-form, #discourse-comments",
             "delay": "#disqus_thread > iframe, .responsesStreamWrapper"
