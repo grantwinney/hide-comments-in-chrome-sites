@@ -118,7 +118,7 @@
         },
         {
             "pattern": "^https?://",
-            "immediate": ".fb-comments, .fb_iframe_widget, .o2-display-comments-toggle, .o2-post-comments, .o2-post-comment-controls, #disqus_thread, .commentlist, .comments, .comment, .commenting, .comments-area, .comments-title, .respond, #comments, #comment, #commenting, #respond, #comment-form, .comment-form, #discourse-comments",
+            "immediate": ".fb-comments, .fb_iframe_widget, .o2-display-comments-toggle, .o2-post-comments, .o2-post-comment-controls, #disqus_thread, .commentlist, .comments, .comment, .commenting, .comments-area, .comments-title, .comment-wrapper, .comments-wrapper, .respond, #comments, #comment, #commenting, #respond, #comment-form, .comment-form, #discourse-comments",
             "delay": "#disqus_thread > iframe, .responsesStreamWrapper"
         }
     ]
