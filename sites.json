@@ -52,7 +52,7 @@
         },
         {
             "pattern": "^https?://(.*[.])?reddit[.]com",
-            "immediate": ".commentarea, .comments, ._1UoeAeSRhOKSNdY_h3iS1O._3m17ICJgx45k_z-t82iVuO, .s6wlmco-0.jecSt, .s18rx025-9.dZUtRw, .qucja8-7, .s121jps0-1.mAuAJ, .p0SYO8TbZVqJIWEeFcNZx.s1ka59oh-2.iWycED, ._1UoeAeSRhOKSNdY_h3iS1O._1Hw7tY9pMr-T1F4P1C-xNU._2qww3J5KKzsD7e5DO0BvvU.s1yee529-0.jDxmTL"
+            "immediate": ".commentarea, .comments, ._1UoeAeSRhOKSNdY_h3iS1O._3m17ICJgx45k_z-t82iVuO, .s6wlmco-0.jecSt, .s18rx025-9.dZUtRw, .qucja8-7, .s121jps0-1, .p0SYO8TbZVqJIWEeFcNZx, ._1UoeAeSRhOKSNdY_h3iS1O._1Hw7tY9pMr-T1F4P1C-xNU._2qww3J5KKzsD7e5DO0BvvU.s1yee529-0.jDxmTL"
         },
         {
             "pattern": "^https?://(.*[.])?stackexchange[.]com",
