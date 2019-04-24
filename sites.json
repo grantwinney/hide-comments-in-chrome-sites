@@ -15,8 +15,8 @@
         },
         {
             "pattern": "^https?://(.*[.])?facebook[.]com",
-            "immediate": ".commentable_item ._1mto:nth-of-type(2), .UFIRow, .UFIComment, .UFILastCommentComponent, .UFILastComment",
-            "delay": ".commentable_item ._1mto:nth-of-type(2), .UFIRow, .UFIComment, .UFILastCommentComponent, .UFILastComment",
+            "immediate": ".commentable_item ._1mto:nth-of-type(2), .UFIRow, .UFIComment, .UFILastCommentComponent, .UFILastComment, ._1whp",
+            "delay": ".commentable_item ._1mto:nth-of-type(2), .UFIRow, .UFIComment, .UFILastCommentComponent, .UFILastComment, ._1whp",
             "onceOnly": false
         },
         {
