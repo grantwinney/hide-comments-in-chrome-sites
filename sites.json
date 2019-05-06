@@ -122,6 +122,10 @@
             "immediate": ".dpr-wrap"
         },
         {
+            "pattern": "^https?://(.*[.])?google[.]com/search",
+            "immediate": "#liveresults-sports-immersive__match-fullpage .PPjCfd :nth-child(5)"
+        },
+        {
             "pattern": "^https?://",
             "immediate": ".fb-comments, .fb_iframe_widget, .o2-display-comments-toggle, .o2-post-comments, .o2-post-comment-controls, #disqus_thread, .commentlist, .comments, .comment, .commenting, .comments-area, .comments-title, .comments-link, .respond, #comments, #comment, #commenting, #respond, #comment-wrapper, #comment-form, .comment-form, #discourse-comments",
             "delay": "#disqus_thread > iframe, .responsesStreamWrapper"
