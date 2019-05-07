@@ -53,7 +53,7 @@
         {
             "pattern": "^https?://(.*[.])?reddit[.]com",
             "immediate": ".commentarea, .comments, ._1UoeAeSRhOKSNdY_h3iS1O, .s6wlmco-0.jecSt, .s18rx025-9.dZUtRw, .qucja8-7, .s121jps0-1, .p0SYO8TbZVqJIWEeFcNZx, .s14rli7r-0.lgHMiM, .s1hs3nv-1.dPPRNz, ._2M2wOqmeoPVvcSsJ6Po9-V",
-            "delay": ".commentarea, .comments, ._1UoeAeSRhOKSNdY_h3iS1O, .s6wlmco-0.jecSt, .s18rx025-9.dZUtRw, .qucja8-7, .s121jps0-1, .p0SYO8TbZVqJIWEeFcNZx"
+            "delay": ".commentarea, .comments, ._1UoeAeSRhOKSNdY_h3iS1O, .s6wlmco-0.jecSt, .s18rx025-9.dZUtRw, .qucja8-7, .s121jps0-1, .p0SYO8TbZVqJIWEeFcNZx, .s14rli7r-0.lgHMiM, .s1hs3nv-1.dPPRNz, ._2M2wOqmeoPVvcSsJ6Po9-V"
         },
         {
             "pattern": "^https?://(.*[.])?stackexchange[.]com",
