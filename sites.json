@@ -127,7 +127,7 @@
         },
         {
             "pattern": "^https?://",
-            "immediate": ".fb-comments, .fb_iframe_widget, .o2-display-comments-toggle, .o2-post-comments, .o2-post-comment-controls, #disqus_thread, .commentlist, .comments, .comment, .commenting, .comments-area, .comments-title, .comments-link, .respond, #comments, #comment, #commenting, #respond, #comment-wrapper, #comment-form, .comment-form, #discourse-comments, #commentform, #postcomment",
+            "immediate": ".fb-comments, .fb_iframe_widget, .o2-display-comments-toggle, .o2-post-comments, .o2-post-comment-controls, #disqus_thread, .commentlist, .comments, .comment, .commenting, .comments-area, .comments-title, .comments-link, .respond, #comments, #comment, #commenting, #respond, #comment-wrapper, #comment-form, .comment-form, #discourse-comments, #commentform, #postcomment, .feedback",
             "delay": "#disqus_thread > iframe, .responsesStreamWrapper"
         }
     ]
