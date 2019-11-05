@@ -119,7 +119,7 @@
         },
         {
             "pattern": "^https?://devblogs[.]microsoft[.]com",
-            "immediate": ".dpr-wrap"
+            "immediate": ".dpr-wrap, #comments"
         },
         {
             "pattern": "^https?://(.*[.])?google[.]com/search",
