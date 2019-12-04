@@ -130,11 +130,11 @@
             "immediate": "#comentarios"
         },
         {
-            "pattern": "^https?://slickdeals[.]net",
+            "pattern": "^https?://(.*[.])?slickdeals[.]net",
             "immediate": "#commentsBox, #joinTheConversationBox"
         },
         {
-            "pattern": "^https?://dailykos[.]com",
+            "pattern": "^https?://(.*[.])?dailykos[.]com",
             "immediate": "#react-comments, .comment-counts-btn"
         },
         {
