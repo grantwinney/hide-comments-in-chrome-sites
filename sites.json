@@ -25,10 +25,6 @@
             "delay": ".topic-post:not(.topic-owner), div.post-stream > .topic-owner:nth-child(1n+2), .cloaked-post, .toggle-summary"
         },
         {
-            "pattern": "^https?://(.*[.])?github[.]com",
-            "immediate": "div.discussion-timeline div.timeline-comment-wrapper:nth-child(1n+2), div.discussion-timeline-actions > div.timeline-new-comment"
-        },
-        {
             "pattern": "^https?://(.*[.])?ijr[.]com",
             "immediate": "#comments, #comments-section"
         },
