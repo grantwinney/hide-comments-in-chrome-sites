@@ -19,8 +19,8 @@
         },
         {
             "pattern": "^https?://(.*[.])?facebook[.]com",
-            "immediate": ".commentable_item ._1mto:nth-of-type(2), .UFIRow, .UFIComment, .UFILastCommentComponent, .UFILastComment, ._1whp",
-            "delay": ".commentable_item ._1mto:nth-of-type(2), .UFIRow, .UFIComment, .UFILastCommentComponent, .UFILastComment, ._1whp",
+            "immediate": ".commentable_item ._1mto:nth-of-type(2), .UFIRow, .UFIComment, .UFILastCommentComponent, .UFILastComment, ._1whp, div[data-testid='UFI2CommentsList/root_depth_0']",
+            "delay": ".commentable_item ._1mto:nth-of-type(2), .UFIRow, .UFIComment, .UFILastCommentComponent, .UFILastComment, ._1whp, div[data-testid='UFI2CommentsList/root_depth_0']",
             "onceOnly": false
         },
         {
@@ -136,10 +136,6 @@
         {
             "pattern": "^https?://(.*[.])?dailykos[.]com",
             "immediate": "#react-comments, .comment-counts-btn"
-        },
-        {
-            "pattern": "^https?://(.*[.])?github[.]com",
-            "immediate": ""
         },
         {
             "pattern": "^https?://",
