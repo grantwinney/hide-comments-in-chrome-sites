@@ -39,8 +39,8 @@
         },
         {
             "pattern": "^https?://(.*[.])?linkedin[.]com",
-            "immediate": ".feed-shared-social-counts__num-comments, .button.comment, .feed-shared-update__comments-container, .feed-shared-update-v2__comments-container, .comment",
-            "delay": ".feed-shared-social-counts__num-comments, .button.comment, .feed-shared-update__comments-container, .feed-shared-update-v2__comments-container, .comment"
+            "immediate": ".feed-shared-social-counts__num-comments, .social-details-social-counts__comments, .button.comment, .feed-shared-update__comments-container, .feed-shared-update-v2__comments-container, .comment",
+            "delay": ".feed-shared-social-counts__num-comments, .social-details-social-counts__comments, .button.comment, .feed-shared-update__comments-container, .feed-shared-update-v2__comments-container, .comment"
         },
         {
             "pattern": "^https?://(.*[.])?namecheap[.]com",
