@@ -2,6 +2,10 @@
     "sites":
     [
         {
+            "pattern": "^https?://(.*[.])?kickstarter[.]com/.*/comments",
+            "immediate": ".js-comments"
+        },
+        {
             "pattern": "^https?://(.*[.])?boredpanda[.]com",
             "immediate": ".open-list-comments"
         },
