@@ -6,6 +6,10 @@
     "sites":
     [
         {
+            "pattern": "^https?://(.*[.])?kickstarter[.]com",
+            "immediate": ".js-comments, #comments-emoji"
+        },
+        {
             "pattern": "^https?://(.*[.])?boredpanda[.]com",
             "immediate": ".open-list-comments"
         },
