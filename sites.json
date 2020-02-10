@@ -34,7 +34,7 @@
         },
         {
             "pattern": "^https?://(.*[.])?ijr[.]com",
-            "immediate": "#comments, #comments-section"
+            "immediate": ".entry-comments-link, .bb-icon-comment, .comments-count, #comments, #comments-section"
         },
         {
             "pattern": "^https?://(.*[.])?instagram[.]com",
@@ -140,10 +140,6 @@
         {
             "pattern": "^https?://(.*[.])?dailykos[.]com",
             "immediate": "#react-comments, .comment-counts-btn"
-        },
-        {
-            "pattern": "^https?://(.*[.])?ijr[.]com",
-            "immediate": ".entry-comments-link, .bb-icon-comment, .comments-count, #comments"
         },
         {
             "pattern": "^https?://",
