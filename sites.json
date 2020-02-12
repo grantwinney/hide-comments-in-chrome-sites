@@ -34,7 +34,7 @@
         },
         {
             "pattern": "^https?://(.*[.])?ijr[.]com",
-            "immediate": ".entry-comments-link, .bb-icon-comment, .comments-count, #comments, #comments-section"
+            "immediate": ".entry-comments-link, .bb-icon-comment, .comments-count, #comments, #comments-section, .elementor-post__meta-data"
         },
         {
             "pattern": "^https?://(.*[.])?instagram[.]com",
