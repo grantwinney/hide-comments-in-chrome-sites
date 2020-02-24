@@ -111,7 +111,8 @@
         },
         {
             "pattern": "^https?://(.*[.])?ign[.]com",
-            "immediate": "#article_comments, .comments-section"
+            "immediate": "#article_comments, .comments-section, .comment-count",
+            "delay": ".comment-count"
         },
         {
             "pattern": "^https?://(.*[.])?buzzfeed[.]com",
