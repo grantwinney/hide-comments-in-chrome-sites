@@ -23,8 +23,8 @@
         },
         {
             "pattern": "^https?://(.*[.])?facebook[.]com",
-            "immediate": ".commentable_item ._18vi:nth-of-type(2), .UFIRow, .UFIComment, .UFILastCommentComponent, .UFILastComment, ._1whp, div[data-testid='UFI2CommentsList/root_depth_0']",
-            "delay": ".commentable_item ._18vi:nth-of-type(2), .UFIRow, .UFIComment, .UFILastCommentComponent, .UFILastComment, ._1whp, div[data-testid='UFI2CommentsList/root_depth_0']",
+            "immediate": ".commentable_item > div > div:nth-of-type(3), .UFIRow, .UFIComment, .UFILastCommentComponent, .UFILastComment, ._1whp, div[data-testid='UFI2CommentsList/root_depth_0']",
+            "delay": ".commentable_item > div > div:nth-of-type(3), .UFIRow, .UFIComment, .UFILastCommentComponent, .UFILastComment, ._1whp, div[data-testid='UFI2CommentsList/root_depth_0']",
             "onceOnly": false
         },
         {
