@@ -162,7 +162,8 @@
         },
         {
             "pattern": "^https?://(.*[.])?blogfolha[.]uol[.]com[.]br",
-            "immediate": "#comentarios"
+            "immediate": "#comentarios",
+            "delay": "#comentarios"
         },
         {
             "pattern": "^https?://",
