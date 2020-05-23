@@ -131,8 +131,10 @@
             "immediate": "#liveresults-sports-immersive__match-fullpage .PPjCfd :nth-child(5)"
         },
         {
-            "pattern": "^https?://(.*[.])?folha[.]uol[.]com[.]br",
-            "immediate": "#comentarios"
+            "pattern": "^https?://(.*[.])?(blog)?folha[.]uol[.]com[.]br",
+            "immediate": "#comentarios",
+            "delay": "#comentarios",
+            "onceOnly": false
         },
         {
             "pattern": "^https?://(.*[.])?slickdeals[.]net",
@@ -159,11 +161,6 @@
         {
             "pattern": "^https?://(.*[.])?haaretz[.]co[.]il",
             "immediate": "#commentsSection, div[data-test='commentsContainer'], form[data-test='newCommentForm']"
-        },
-        {
-            "pattern": "^https?://(.*[.])?blogfolha[.]uol[.]com[.]br",
-            "immediate": "#comentarios",
-            "delay": "#comentarios"
         },
         {
             "pattern": "^https?://",
